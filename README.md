@@ -1,2 +1,2 @@
 # iitkms.github.io
-Website of IITK MotoSport
+Website of IITK MotorSports
