@@ -6,7 +6,6 @@
 
 
 
-/* Pre page loader */
 
 /* Imports */
 @import url('./fonts.css');
@@ -22,6 +21,23 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
 }
+#preloader{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #111111;
+    z-index: 999;
+}
+#preloader .container{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: calc(50vh - 150px);
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .mh-100vh {
     min-height: 100vh;
 }

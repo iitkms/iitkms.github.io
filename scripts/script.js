@@ -1,3 +1,14 @@
+// Pre Loader
+window.onload = function () {
+    setTimeout(() => {
+        var loader = document.getElementById('preloader');
+        loader.style.display = 'none';
+        loader.innerHTML = ' ';
+    }, 500);
+};
+
+
+// Navbar
 var nav = document.getElementById('navbar');
 var isNavOpen = false;
 
