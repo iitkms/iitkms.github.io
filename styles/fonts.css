@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Raleway:400,500,700|Vollkorn:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700|Raleway:400,500,700|Vollkorn:400,700&display=swap');
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Vollkorn', serif; */
+
+@font-face {
+    font-family: 'EliteHacker';
+    src: url('./fonts/EliteHacker.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'NewPressEroded';
+    src: url('./fonts/NewPressEroded.otf') format('embedded-opentype'), url('./fonts/NewPressEroded.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal
+}
