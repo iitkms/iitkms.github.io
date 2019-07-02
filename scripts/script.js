@@ -26,7 +26,6 @@ function toggleNav() {
 
 
 // Onscroll on Window
-
 window.onscroll = function(){reduceNav()};
 
 function reduceNav(){
@@ -55,8 +54,10 @@ function reduceNav(){
 }
 
 function isMobile() {
-	if(navxs.style.display == "none" || !navxs.style.display){
+	if(window.innerWidth > 980){
 		return false;
 	}
 	else return true;
 }
+
+
