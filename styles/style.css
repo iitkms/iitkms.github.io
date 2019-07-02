@@ -363,11 +363,12 @@ footer {
 .member img {
     width: 200px;
     box-sizing: content-box;
-    box-shadow: 5px 5px #ff4d4d;
+    border: #ff4d4d 3px solid;
+    box-shadow: 3px 3px #eb4646;
 }
 .member img:hover {
-    filter: saturate(20%);
-    -webkit-filter: saturate(20%);
+    filter: saturate(0%);
+    -webkit-filter: saturate(0%);
 }
 .member h3 {
     margin: 10px auto;
@@ -384,6 +385,10 @@ footer {
     box-shadow: 2px 2px 5px #111;
     border-radius: 1px;
     margin: 0;
+}
+.g-pic img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 /* main title section */
